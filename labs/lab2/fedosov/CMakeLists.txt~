@@ -1,0 +1,7 @@
+make_minimum_required(VERSION 2.8)
+project(lab2)
+find_package(OpenCV REQUIRED)
+nclude_directories(${OpenCV_INCLUDE_DIRS})
+set(target "lab2")
+add_executable(${target} ght.cpp) 
+target_link_libraries(${target} ${OpenCV_LIBS})

@@ -1,0 +1,1 @@
+/home/alexander/opencvLabs/labs/lab2/fedosov/CMakeFiles/ght.dir
